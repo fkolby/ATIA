@@ -134,3 +134,5 @@ events.out*
 *.jpeg
 *.zip
 *.ckpt
+._*
+.DS_Store
