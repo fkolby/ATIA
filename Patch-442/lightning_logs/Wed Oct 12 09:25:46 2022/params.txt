@@ -1,0 +1,1 @@
+Wed Oct 12 09:25:46 2022{'seed': 442, 'data_dir': 'ISICdataNewAndLovely/jpeg/train/', 'maxEpochs': 2, 'batchSize': 2, 'modeltype': 'Patch', 'maxTime': -1, 'logDir': '', 'gpu': False, 'workers': 4}

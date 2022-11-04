@@ -1,0 +1,80 @@
+
+TIME: Mon Oct 24 10:11:14 2022
+VARS: {'seed': 3, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4509.976118326187
+AUC: 0.9019285557747095
+ACC: tensor(0.8622)
+################################################################################
+
+TIME: Mon Oct 24 10:11:14 2022
+VARS: {'seed': 2, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4553.563673257828
+AUC: 0.9022024983563445
+ACC: tensor(0.8558)
+################################################################################
+
+TIME: Mon Oct 24 10:11:14 2022
+VARS: {'seed': 1, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4645.147330284119
+AUC: 0.9172255095332018
+ACC: tensor(0.8654)
+################################################################################
+
+TIME: Mon Oct 24 11:27:06 2022
+VARS: {'seed': 4, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4603.046770811081
+AUC: 0.9075279421433268
+ACC: tensor(0.8478)
+################################################################################
+
+TIME: Mon Oct 24 11:27:32 2022
+VARS: {'seed': 5, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4648.341534137726
+AUC: 0.9137847907078676
+ACC: tensor(0.8606)
+################################################################################
+
+TIME: Mon Oct 24 11:29:32 2022
+VARS: {'seed': 6, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4753.005973100662
+AUC: 0.9058294981371904
+ACC: tensor(0.8638)
+################################################################################
+
+TIME: Mon Oct 24 12:44:37 2022
+VARS: {'seed': 7, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4475.795818567276
+AUC: 0.9043173350865659
+ACC: tensor(0.8606)
+################################################################################
+
+TIME: Mon Oct 24 12:45:31 2022
+VARS: {'seed': 8, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4512.962829589844
+AUC: 0.8920994959456497
+ACC: tensor(0.8702)
+################################################################################
+
+TIME: Mon Oct 24 12:49:32 2022
+VARS: {'seed': 9, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4646.792173862457
+AUC: 0.9029257067718606
+ACC: tensor(0.8622)
+################################################################################
+
+TIME: Mon Oct 24 14:00:08 2022
+VARS: {'seed': 10, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': 'baseCase', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: GeForce GTX TITAN X
+Time to run model:4648.895045757294
+AUC: 0.9057637519175981
+ACC: tensor(0.8462)
+################################################################################

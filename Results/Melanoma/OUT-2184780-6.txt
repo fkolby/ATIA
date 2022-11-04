@@ -1,0 +1,227 @@
+a00636.science.domain
+3
+Global seed set to 6
+got here
+Multiprocessing is handled by SLURM.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/core/module.py:423: UserWarning: You are trying to `self.log()` but the `self.trainer` reference is not registered on the model yet. This is most likely because the model hasn't been passed to the `Trainer`
+  rank_zero_warn(
+1
+#######################################/n importantes: /n/n/n/n/n/n 64 Sequential(
+  (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+) 1 64 4 <class '__main__.Bottleneck'> 64 3 1 False 1 /n#######################################/n
+[Bottleneck(
+  (conv1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+  (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (downsample): Sequential(
+    (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+)]
+256
+1
+#######################################/n importantes: /n/n/n/n/n/n 256 Sequential(
+  (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+  (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+) 1 64 4 <class '__main__.Bottleneck'> 128 3 2 False 1 /n#######################################/n
+[Bottleneck(
+  (conv1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+  (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (downsample): Sequential(
+    (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+    (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+)]
+512
+1
+#######################################/n importantes: /n/n/n/n/n/n 512 Sequential(
+  (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+  (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+) 1 64 4 <class '__main__.Bottleneck'> 256 9 2 False 1 /n#######################################/n
+[Bottleneck(
+  (conv1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+  (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (downsample): Sequential(
+    (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+    (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+)]
+1024
+1
+#######################################/n importantes: /n/n/n/n/n/n 1024 Sequential(
+  (0): Conv2d(1024, 2048, kernel_size=(1, 1), stride=(2, 2), bias=False)
+  (1): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+) 1 64 4 <class '__main__.Bottleneck'> 512 3 2 False 1 /n#######################################/n
+[Bottleneck(
+  (conv1): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+  (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (downsample): Sequential(
+    (0): Conv2d(1024, 2048, kernel_size=(1, 1), stride=(2, 2), bias=False)
+    (1): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+)]
+2048
+_________________________________________________________________
+Layer        Type                 Output Shape          Param #  
+=================================================================
+resnet       ResNet               (-1, 2)               0        
+├─conv1      Conv2d               (-1, 64, 112, 112)    9,408    
+├─bn1        BatchNorm2d          (-1, 64, 112, 112)    257      
+├─relu       ReLU                 (-1, 64, 112, 112)    0        
+├─maxpool    MaxPool2d            (-1, 64, 56, 56)      0        
+├─layer1     Sequential           (-1, 256, 56, 56)     0        
+|    └─0     Bottleneck           (-1, 256, 56, 56)     76,292   
+|    └─1     Bottleneck           (-1, 256, 56, 56)     71,171   
+|    └─2     Bottleneck           (-1, 256, 56, 56)     71,171   
+├─layer2     Sequential           (-1, 512, 28, 28)     0        
+|    └─0     Bottleneck           (-1, 512, 28, 28)     381,956  
+|    └─1     Bottleneck           (-1, 512, 28, 28)     281,603  
+|    └─2     Bottleneck           (-1, 512, 28, 28)     281,603  
+├─layer3     Sequential           (-1, 1024, 14, 14)    0        
+|    └─0     Bottleneck           (-1, 1024, 14, 14)    1,517,572
+|    └─1     Bottleneck           (-1, 1024, 14, 14)    1,120,259
+|    └─2     Bottleneck           (-1, 1024, 14, 14)    1,120,259
+|    └─3     Bottleneck           (-1, 1024, 14, 14)    1,120,259
+|    └─4     Bottleneck           (-1, 1024, 14, 14)    1,120,259
+|    └─5     Bottleneck           (-1, 1024, 14, 14)    1,120,259
+|    └─6     Bottleneck           (-1, 1024, 14, 14)    1,120,259
+|    └─7     Bottleneck           (-1, 1024, 14, 14)    1,120,259
+|    └─8     Bottleneck           (-1, 1024, 14, 14)    1,120,259
+├─layer4     Sequential           (-1, 2048, 7, 7)      0        
+|    └─0     Bottleneck           (-1, 2048, 7, 7)      6,049,796
+|    └─1     Bottleneck           (-1, 2048, 7, 7)      4,468,739
+|    └─2     Bottleneck           (-1, 2048, 7, 7)      4,468,739
+├─avgpool    AdaptiveAvgPool2d    (-1, 2048, 1, 1)      0        
+├─fc         Linear               (-1, 2)               4,098    
+=================================================================
+Trainable params: 26,583,618
+Non-trainable params: 0
+Total params: 26,583,618
+-----------------------------------------------------------------
+Model size (params + buffers): 101.64 Mb
+Framework & CUDA overhead: 469.00 Mb
+Total RAM usage: 570.64 Mb
+-----------------------------------------------------------------
+Floating Point Operations on forward: 9.13 GFLOPs
+Multiply-Accumulations on forward: 4.58 GMACs
+Direct memory accesses on forward: 4.59 GDMAs
+_________________________________________________________________
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+
+  | Name    | Type              | Params
+----------------------------------------------
+0 | conv1   | Conv2d            | 9.4 K 
+1 | bn1     | BatchNorm2d       | 128   
+2 | relu    | ReLU              | 0     
+3 | maxpool | MaxPool2d         | 0     
+4 | layer1  | Sequential        | 215 K 
+5 | layer2  | Sequential        | 939 K 
+6 | layer3  | Sequential        | 10.4 M
+7 | layer4  | Sequential        | 15.0 M
+8 | avgpool | AdaptiveAvgPool2d | 0     
+9 | fc      | Linear            | 4.1 K 
+----------------------------------------------
+26.6 M    Trainable params
+0         Non-trainable params
+26.6 M    Total params
+106.334   Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+Sanity Checking: 0it [00:00, ?it/s]Sanity Checking:   0%|          | 0/2 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s]29.03962254524231
+29.7148334980011
+Sanity Checking DataLoader 0: 100%|██████████| 2/2 [00:01<00:00,  1.18it/s]                                                                           Training: 0it [00:00, ?it/s]Training:   0%|          | 0/18 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/18 [00:00<?, ?it/s] Epoch 0:  17%|█▋        | 3/18 [00:25<02:07,  8.51s/it]Epoch 0:  17%|█▋        | 3/18 [00:25<02:07,  8.51s/it, loss=0.757, v_num=2022, train_loss_step=0.860]Epoch 0:  33%|███▎      | 6/18 [00:28<00:56,  4.75s/it, loss=0.757, v_num=2022, train_loss_step=0.860]Epoch 0:  33%|███▎      | 6/18 [00:28<00:56,  4.75s/it, loss=0.786, v_num=2022, train_loss_step=0.780]Traceback (most recent call last):
+  File "/home/jbv415/ATIAjbv/train/ATIApyfilemain.py", line 687, in <module>
+    main(args)
+  File "/home/jbv415/ATIAjbv/train/ATIApyfilemain.py", line 618, in main
+    trainer.fit(model)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 735, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1166, in _run
+    results = self._run_stage()
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1252, in _run_stage
+    return self._run_train()
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1283, in _run_train
+    self.fit_loop.run()
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 271, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 203, in advance
+    batch_output = self.batch_loop.run(kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 87, in advance
+    outputs = self.optimizer_loop.run(optimizers, kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 201, in advance
+    result = self._run_optimization(kwargs, self._optimizers[self.optim_progress.optimizer_position])
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 248, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, kwargs.get("batch_idx", 0), closure)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 358, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1550, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/core/module.py", line 1705, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/core/optimizer.py", line 168, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 216, in optimizer_step
+    return self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 153, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/torch/optim/lr_scheduler.py", line 65, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/torch/optim/optimizer.py", line 113, in wrapper
+    return func(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/torch/optim/adamw.py", line 119, in step
+    loss = closure()
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 138, in _wrap_closure
+    closure_result = closure()
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 146, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 132, in closure
+    step_output = self._step_fn()
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 407, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *kwargs.values())
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1704, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/jbv415/anaconda3/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 358, in training_step
+    return self.model.training_step(*args, **kwargs)
+  File "/home/jbv415/ATIAjbv/train/ATIApyfilemain.py", line 390, in training_step
+    x,y = self.mixup_fn(x,y) 
+  File "/home/jbv415/ATIAjbv/train/ATIApyfilemain.py", line 380, in mixup_fn
+    yngt = torch.reshape(y[0].clone().detach().requires_grad_(True),shape=(1,1))
+RuntimeError: only Tensors of floating point dtype can require gradients
+Epoch 0:  33%|███▎      | 6/18 [00:32<01:04,  5.36s/it, loss=0.786, v_num=2022, train_loss_step=0.780]

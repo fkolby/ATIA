@@ -1,0 +1,28 @@
+
+TIME: Thu Oct 13 21:53:27 2022
+VARS: {'seed': 1, 'data_dir': 'ISICdataNewAndLovely/jpeg/train/', 'maxEpochs': 5, 'batchSize': 2, 'modeltype': 'baseCase', 'maxTime': 300, 'logDir': '', 'gpu': False, 'workers': 4, 'devices': 0, 'testSetName': 'val', 'port': 36159}
+Time to run model:481.1385407447815
+AUC: 0.6045482802989779
+ACC: tensor(0.5513)
+################################################################################
+
+TIME: Fri Oct 14 13:03:26 2022
+VARS: {'seed': 1, 'data_dir': 'ISICdataNewAndLovely/jpeg/train/', 'maxEpochs': 5, 'batchSize': 2, 'modeltype': 'baseCase', 'maxTime': 300, 'logDir': '', 'gpu': False, 'workers': 4, 'devices': 0, 'testSetName': 'val', 'port': 36159}
+Time to run model:487.5091655254364
+AUC: 0.723387644754153
+ACC: tensor(0.6350)
+################################################################################
+
+TIME: Fri Oct 14 14:21:59 2022
+VARS: {'seed': 1, 'data_dir': 'ISICdataNewAndLovely/jpeg/train/', 'maxEpochs': 1, 'batchSize': 2, 'modeltype': 'baseCase', 'maxTime': 300, 'logDir': '', 'gpu': False, 'workers': 4, 'devices': 0, 'testSetName': 'val', 'port': 36159}
+Time to run model:155.0568449497223
+AUC: 0.6265523572698752
+ACC: tensor(0.6046)
+################################################################################
+
+TIME: Fri Oct 14 14:31:20 2022
+VARS: {'seed': 1, 'data_dir': 'ISICdataNewAndLovely/jpeg/train/', 'maxEpochs': 1, 'batchSize': 2, 'modeltype': 'baseCase', 'maxTime': 300, 'logDir': '', 'gpu': False, 'workers': 4, 'devices': 0, 'testSetName': 'val', 'port': 36159}
+Time to run model:173.21670484542847
+AUC: 0.6265523572698752
+ACC: tensor(0.6046)
+################################################################################

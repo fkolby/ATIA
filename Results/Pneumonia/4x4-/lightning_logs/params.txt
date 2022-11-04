@@ -1,0 +1,80 @@
+
+TIME: Mon Oct 24 10:18:11 2022
+VARS: {'seed': 1, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN Xp
+Time to run model:3375.921289920807
+AUC: 0.9092592592592592
+ACC: tensor(0.8446)
+################################################################################
+
+TIME: Mon Oct 24 10:18:09 2022
+VARS: {'seed': 3, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN Xp
+Time to run model:3440.4295217990875
+AUC: 0.9045584045584046
+ACC: tensor(0.8622)
+################################################################################
+
+TIME: Mon Oct 24 10:18:11 2022
+VARS: {'seed': 2, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN Xp
+Time to run model:3472.0614960193634
+AUC: 0.899474030243261
+ACC: tensor(0.8510)
+################################################################################
+
+TIME: Mon Oct 24 11:15:36 2022
+VARS: {'seed': 4, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN Xp
+Time to run model:3535.5323507785797
+AUC: 0.8992767915844839
+ACC: tensor(0.8446)
+################################################################################
+
+TIME: Mon Oct 24 11:17:02 2022
+VARS: {'seed': 6, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN Xp
+Time to run model:3688.2740201950073
+AUC: 0.9021586675432829
+ACC: tensor(0.8317)
+################################################################################
+
+TIME: Mon Oct 24 11:16:04 2022
+VARS: {'seed': 5, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN X (Pascal)
+Time to run model:4204.657254695892
+AUC: 0.909916721455183
+ACC: tensor(0.8606)
+################################################################################
+
+TIME: Mon Oct 24 12:15:37 2022
+VARS: {'seed': 7, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN Xp
+Time to run model:3411.2734208106995
+AUC: 0.9063006793776025
+ACC: tensor(0.8542)
+################################################################################
+
+TIME: Mon Oct 24 12:19:42 2022
+VARS: {'seed': 8, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN X (Pascal)
+Time to run model:4131.299018859863
+AUC: 0.9009423624808239
+ACC: tensor(0.8622)
+################################################################################
+
+TIME: Mon Oct 24 12:27:03 2022
+VARS: {'seed': 9, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN X (Pascal)
+Time to run model:4104.470653533936
+AUC: 0.9012163050624589
+ACC: tensor(0.8333)
+################################################################################
+
+TIME: Mon Oct 24 13:17:02 2022
+VARS: {'seed': 10, 'data_dir': '', 'maxEpochs': 50, 'batchSize': 64, 'modeltype': '4x4', 'maxTime': 10800, 'logDir': '', 'gpu': True, 'workers': 10, 'devices': 1, 'testSetName': 'test', 'port': 36159}
+Device, number: 0, name: TITAN Xp
+Time to run model:3341.060977458954
+AUC: 0.9046022353714662
+ACC: tensor(0.8462)
+################################################################################
